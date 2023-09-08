@@ -49,7 +49,7 @@ Replace your_database_name, your_database_username, and your_database_password w
 
 ```shell
 composer install
-
+```
 
 ## Step 5: Generate Application Key
 
