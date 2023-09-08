@@ -49,12 +49,12 @@ Replace your_database_name, your_database_username, and your_database_password w
 
    ```shell
    composer install
-```shell
+
 
 ## Step 5: Generate Application Key
 
 In your terminal or command prompt, still within your Laravel project's root directory, run the following command:
  ```shell
    php artisan key:generate
-```shell
+
 
