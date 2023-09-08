@@ -1,3 +1,7 @@
+![Deals-imagebanner]([https://github.com/yourusername/yourrepository/images/logo.png](https://github.com/haidnav/Deals-disseration-project/blob/main/deals-image.png))
+
+
+
 # Setting Up a Laravel Project with XAMPP
 
 This guide will walk you through the steps to set up a Laravel web application on your local machine using XAMPP. 
