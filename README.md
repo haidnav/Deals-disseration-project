@@ -75,9 +75,11 @@ php artisan serve
 3.	Your terminal should output a link to access the application.
 example:
 ```shell
+(base) haidernaveed@Haiders-MBP deals % pwd
+/Applications/XAMPP/xamppfiles/htdocs/deals
 (base) haidernaveed@Haiders-MBP deals % php artisan serve
 Starting Laravel development server: http://127.0.0.1:8000
-[Fri Sep  8 07:08:05 2023] PHP 8.2.5 Development Server (http:
+[Fri Sep  8 07:08:05 2023] PHP 8.2.5 Development Server (http://127.0.0.1:8000) started
 ```
 
 
