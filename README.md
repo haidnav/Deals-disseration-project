@@ -75,7 +75,7 @@ php artisan serve
 example:
 ```shell
 (base) haidernaveed@Haiders-MBP deals % php artisan serve
-Starting Laravel development server: **http://127.0.0.1:8000**
+Starting Laravel development server: http://127.0.0.1:8000
 [Fri Sep  8 07:08:05 2023] PHP 8.2.5 Development Server (http:
 ```
 
