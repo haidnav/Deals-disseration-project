@@ -71,6 +71,7 @@ This will create the necessary tables in your database based on your Laravel pro
 2.	Navigate to your htdocs directory and your projects root folder. Run the following command:
 ```shell
 php artisan serve
+```
 3.	Your terminal should output a link to access the application.
 example:
 ```shell
