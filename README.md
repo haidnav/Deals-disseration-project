@@ -1,4 +1,4 @@
-![Deals-imagebanner]([https://github.com/yourusername/yourrepository/images/logo.png](https://github.com/haidnav/Deals-disseration-project/blob/main/deals-image.png))
+![Deals-imagebanner](https://github.com/haidnav/Deals-disseration-project/blob/main/deals-image.png))
 
 
 
