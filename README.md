@@ -37,3 +37,24 @@ If you haven't already installed XAMPP, follow these instructions:
    DB_DATABASE=your_database_name
    DB_USERNAME=your_database_username
    DB_PASSWORD=your_database_password
+
+Replace your_database_name, your_database_username, and your_database_password with your actual database credentials.
+
+
+## Step 4: Install Composer Dependencies
+
+1. Open your terminal or command prompt and navigate to the root of your Laravel project.
+
+2. Run the following command to install the required dependencies:
+
+   ```shell
+   composer install
+```shell
+
+## Step 5: Generate Application Key
+
+In your terminal or command prompt, still within your Laravel project's root directory, run the following command:
+ ```shell
+   php artisan key:generate
+```shell
+
