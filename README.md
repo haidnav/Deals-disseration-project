@@ -47,14 +47,42 @@ Replace your_database_name, your_database_username, and your_database_password w
 
 2. Run the following command to install the required dependencies:
 
-   ```shell
-   composer install
+```shell
+composer install
 
 
 ## Step 5: Generate Application Key
 
 In your terminal or command prompt, still within your Laravel project's root directory, run the following command:
- ```shell
-   php artisan key:generate
+```shell
+php artisan key:generate
+```
+This will generate a unique application key needed for encryption purposes.
+
+## Step 6: Run Database Migrations
+In the terminal or command prompt, run the following command to execute the database migrations:
+```shell
+php artisan migrate
+```
+This will create the necessary tables in your database based on your Laravel project's migration files.
+
+## Step 7: Start the Server
+1.	Make sure XAMPP's Apache and MySQL services are running.
+2.	Navigate to your htdocs directory and your projects root folder. Run the following command:
+```shell
+php artisan serve
+3.	Your terminal should output a link to access the application.
+example:
+```shell
+(base) haidernaveed@Haiders-MBP deals % php artisan serve
+Starting Laravel development server: **http://127.0.0.1:8000**
+[Fri Sep  8 07:08:05 2023] PHP 8.2.5 Development Server (http:
+```
+
+
+
+
+
+
 
 
