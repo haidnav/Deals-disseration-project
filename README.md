@@ -87,6 +87,11 @@ Starting Laravel development server: http://127.0.0.1:8000
 ```
 
 
+By following these steps you should now be up and running and can begin using the application in a local enivronment.
+
+
+
+
 
 
 
