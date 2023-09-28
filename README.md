@@ -1,11 +1,11 @@
 ![Deals-imagebanner](https://github.com/haidnav/Deals-disseration-project/blob/main/deals-image.png)
 
 # Project Requirements
-- Node.js [Node.js](https://nodejs.org/en)
-- PHP
+- [Node.js](https://nodejs.org/en)
+- [PHP]((https://www.php.net/downloads.php))
 - Laravel
-- Composer
-
+- Composer: https://getcomposer.org/download/
+**Please download these before continuing, laravel will automatically be installed when running composer**
 
 
 # Setting Up a Laravel Project with XAMPP
@@ -34,21 +34,23 @@ If you haven't already installed XAMPP, follow these instructions:
 
 2. Access phpMyAdmin by going to [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/) in your web browser.
 
-3. Create a new database for your Laravel site by clicking on "New" and giving it a suitable name.
+3. Create a new database for your Laravel site by clicking on "New" and giving it a suitable name. (for example `deals_app`)
+   
+4. Import the attached SQL file into your newly created database within PHPMyAdmin
 
-4. Locate the `.env` file in your Laravel project's root folder. If it's not there, look for `.env.example` and rename it to `.env`.
+5. Locate the `.env` file in your Laravel project's root folder. If it's not there, look for `.env.example` and rename it to `.env`.
 
-5. Open the `.env` file in a text editor and update the following lines with your database details:
+6. Open the `.env` file in a text editor and update the following lines with your database details:
 
    ```dotenv
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
-   DB_DATABASE=your_database_name
+   DB_DATABASE=your_database_name (this would be deals_app, as named above)
    DB_USERNAME=your_database_username
    DB_PASSWORD=your_database_password
 
-Replace your_database_name, your_database_username, and your_database_password with your actual database credentials.
+Replace your_database_name, your_database_username, and your_database_password with your actual database credentials. DB_USERNAME is `root` by default and DB_PASSWORD should be left empty.
 
 
 ## Step 4: Install Composer Dependencies
@@ -59,6 +61,11 @@ Replace your_database_name, your_database_username, and your_database_password w
 
 ```shell
 composer install
+```
+
+If you encounter an error here, try:
+```shell
+composer upgrade
 ```
 **You can download composer here:** https://getcomposer.org/download/
 ## Step 5: Generate Application Key
