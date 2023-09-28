@@ -1,5 +1,11 @@
 ![Deals-imagebanner](https://github.com/haidnav/Deals-disseration-project/blob/main/deals-image.png)
 
+# Project Requirements
+- Node.js [Node.js](https://nodejs.org/en)
+- PHP
+- Laravel
+- Composer
+
 
 
 # Setting Up a Laravel Project with XAMPP
