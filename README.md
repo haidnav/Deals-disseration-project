@@ -102,6 +102,21 @@ Starting Laravel development server: http://127.0.0.1:8000
 
 By following these steps you should now be up and running and can begin using the application in a local enivronment.
 
+## Step 8: Start using the app in web environment
+
+Now that the deals app is running in your local web environment, there are some things to do first to gain a better understanding.
+
+1. Register as a user. This can be done by clicking log in, at the top right corner of the page. This should open a modal that has the log in form. Look for a link to `create account`, and register yourself as a new user.
+2. Check PHPMyAdmin to see if you have been registered. You can find your newly created user in the `user` table.
+3. Locate the row of your newly created user and click `edit`.
+4. Change `role` from `user` to `admin`. Then click on `Go` at the bottom of the page.
+5. Go back to the deals app. Alter the URL, it should be `/dashboard`, change this to `/logout`.
+6. You should now be on the home page. Please log in again.
+7. If done correctly you should now be seeing the admin dashboard. Here you can create categories and sub categories, as well as approve or decline deals posted by users.
+8. Now that the admin account is set up. You can set up a regular user account by simply signing up. Then you can create deals to post, but ensure that you have created some categories first.
+9. Once you have submitted a deal, you will need to go back into the admin account in order to accept the deal. Once accepted it can be viewed on the front end.
+
+
 
 
 
