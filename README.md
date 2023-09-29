@@ -65,8 +65,10 @@ composer install
 
 If you encounter an error here, try:
 ```shell
-composer upgrade
+composer update
 ```
+Then, run `composer install` again.
+
 **You can download composer here:** https://getcomposer.org/download/
 ## Step 5: Generate Application Key
 
