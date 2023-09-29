@@ -136,6 +136,9 @@ To find an accepted promotion on the front-end, you can either:
 - Alternatively, you can search for your promotion by typing its `title` into the search bar, or by typing in any `tags` you assigned during the `Create Promotions` process. This should lead you to a search page, with your keywords displayed as well as the promotion/listing itself. 
 
 
+## Additional comments
+Step 8 in this guide outlines how you can get started with using the Deals web app in a local environment. It should also give you an idea of the overall functionality of the web app. From here feel free to try and test different things within the application!
+
 
 
 
