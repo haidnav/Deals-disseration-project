@@ -139,7 +139,7 @@ To find an accepted promotion on the front-end, you can either:
 ## Additional comments
 Step 8 in this guide outlines how you can get started with using the Deals web app in a local environment. It should also give you an idea of the overall functionality of the web app. From here feel free to try and test different things within the application!
 
-
+It is important to note that you **will need** to install each of the requirements on your local machine, otherwise the app will not launch.
 
 
 
